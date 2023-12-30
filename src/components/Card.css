@@ -1,0 +1,22 @@
+/* Add your custom styles here */
+.card {
+    margin: 20px; /* Add margin to the card */
+  }
+  
+  .card-img-top {
+    height: 120px;
+    object-fit: fill;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    height: 38px;
+  }
+  
+  /* Add any additional styles as needed */
+  
