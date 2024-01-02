@@ -31,11 +31,13 @@ export default function Cart() {
         email: userEmail,
         order_date: new Date().toDateString()
       })
+            alert("order placed succesfully 2")
     });
     console.log("JSON RESPONSE:::::", response.status)
     if (response.status === 200) {
-      alert("order placed succesfully")
+
       dispatch({ type: "DROP" })
+            alert("order placed succesfully")
     }
   }
 
