@@ -37,7 +37,7 @@ export default function Cart() {
     if (response.status === 200) {
 
       dispatch({ type: "DROP" })
-            alert("order placed succesfully")
+            // alert("order placed succesfully")
     }
   }
 
