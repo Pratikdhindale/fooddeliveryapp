@@ -34,6 +34,7 @@ export default function Cart() {
     });
     console.log("JSON RESPONSE:::::", response.status)
     if (response.status === 200) {
+      alert("order placed succesfully")
       dispatch({ type: "DROP" })
     }
   }
