@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'foodAppFrontend'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A99F8F71726C4A7A89B5C8BC31B595D4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C539D5AFEEAE4BA7A7E6164EA2B0A2E6 }}
           package: .
