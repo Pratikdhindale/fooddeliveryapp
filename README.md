@@ -24,11 +24,8 @@ GoFood is an innovative online food ordering platform designed to enhance user e
 <b>Key Features :</b>
 <ul>
     <li>Effortless Ordering: GoFood simplifies the food ordering process, offering a user-friendly interface powered by React.js. Users can easily browse menus, customize orders, and complete transactions seamlessly.</li>
-    
     <li>AI-Powered Support: The AI ChatBot, enabled by Azure AI Service, provides instant and accurate responses to user queries. It offers personalized assistance, resolves concerns, and guides users through the ordering process efficiently.</li>
-    
     <li>Secure Data Management: Leveraging Azure Cosmos DB, GoFood ensures the utmost security for user credentials. The platform encrypts and safeguards sensitive information, prioritizing data integrity and privacy, thereby enhancing user trust and confidence.</li>
-   
     </ul>
 <b>Future Enhancements :</b><br>
 <p align="justify">
@@ -57,7 +54,7 @@ GoFood envisions expanding its AI capabilities by integrating Azure Machine Lear
 </p>
 <img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/frontend.png" alt="azure-app-service"></img><br>
 
-<b>Description: For Backend</b><p align="justify">
+<br><b>Description: For Backend</b><p align="justify">
 </p>
 <img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/backend.png" alt="azure-app-service"></img><br>
 
@@ -74,7 +71,7 @@ GoFood envisions expanding its AI capabilities by integrating Azure Machine Lear
 <b>Description:</b><p align="justify">I am providing the enclosed screenshot of the finalized operational website for your reference and review purposes.</p>
 <img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/demo2.png" alt="final-project-demo"></img><br>
 
-<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/demo3.png"></img><br>
+<br><img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/demo3.png"></img><br>
 
 
 
