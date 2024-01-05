@@ -1,51 +1,84 @@
-# Food Delivery App using MERN Stack
-
-The purpose of this project is to develop a food delivery app using the MERN (MongoDB, Express, React, Node.js) stack. The app allows users to order food items. The app is designed to be user-friendly, with a clean and modern interface..
-
-
-## Tech-Stack-
-
-<div align="left">
-<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-<img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/> 
-<img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-<img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img alt="ExpressJS" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-<img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img alt="Bootstrap" src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-</div>
-
-
-## Features-
-
-- Allow users to browse food items.
-- Allow users to place orders.
-- Allow admin users to manage orders.
-
-## Architecture-
-
-The food delivery app is built using the MERN stack. The app consists of several components, including the Home screen,My Orders screen, Cart screen, Login and Logout screen and Admin screen. 
-
-The Home screen displays the list of food items, and includes a search bar and number of items to be ordered options.The Home screen displays the list of items in the menu, and allows the user to add items to their cart. The Cart screen displays the list of items in the user's cart, and allows the user to place an order. The Order screen displays the details of the user's order.The Admin screen displays the management interface for menus and orders.
-
-## Design-
-
-The design of the app is modern and user-friendly, with a focus on simplicity and ease of use. The app uses a clean and minimalist design, with a black background and simple typography. The app also uses clear and concise language, with straightforward labels and instructions.
-
-The Home screen displays the list of food items in a grid view, with each food item displayed as a card.The Cart screen displays the list of items in the user's cart, with the total price and checkout button displayed prominently. The Order screen displays the details of the user's order.The Admin screen displays the management interface for orders and cart, with clear and intuitive navigation and controls.
-
-<!-- The app is designed to be scalable and modular, with a clean and organized codebase. The backend API is implemented using Express.js and Mongoose, with separate controllers and models for each component. The frontend is implemented using React, with separate components for each screen and functionality.-->
-
-## Usage-
+<h1>Microsoft-Future-Ready-Talent-Virtual-Internship-Project</h1>
+<h2>Project Title: GoFood</h2><b><a href="https://foodappfrontend.azurewebsites.net/">GoFood</b></a>
+<br>
+<h2>Project Details</h2>
+<b>Project Demo URL :</b> https://foodappfrontend.azurewebsites.net/ <br>
+<b>Demo Video URL :</b>https://drive.google.com/file/d/1QrNHvFmeibQAB9pJLqpuRtj38-pCl5Fq/view?usp=drivesdk<br>
+<b>Github Repository URL :</b>https://github.com/Pratikdhindale/fooddeliveryapp<br>
+<b>Industry :</b> Lifestyle and Technology<br>
+<h2>Azure Services Used</h2>
+<h3>Core Azure Services:</h3>
+1. Azure App Service: Deployed the Node.js backend and React.js Frontend.<br>
+2. Azure Cosmos DB: Leveraged as a MongoDB repository to store search history.<br>
+<h3>Azure AI Service</h3> 
+1. Azure AI Service: Utilized for creating ChatBot . <br>
 
 
 
-## Live-Demo-
+<h2>Problem Statement</h2>
+<p align="justify">The project aims to streamline the online food ordering experience by integrating advanced technologies like AI-driven chat support, simplifying user interactions, and ensuring secure storage of user data.</p>
 
-[Food-Delivery-App-Live]()
+<h2>Project Description</h2>
+<p align="justify">
+GoFood is an innovative online food ordering platform designed to enhance user experience and efficiency. Leveraging Node.js for the backend and React.js for the frontend, the platform provides a seamless ordering process. Azure App Service enables scalable deployment, ensuring a robust backend environment. Azure Cosmos DB ensures secure storage of user credentials using MongoDB, prioritizing data integrity and safety. The highlight of this project is the integration of Azure AI Service, powering an intelligent ChatBot that efficiently addresses user queries, enhancing customer satisfaction and engagement.</p>
+<b>Key Features :</b>
+<ul>
+    <li>Effortless Ordering: GoFood simplifies the food ordering process, offering a user-friendly interface powered by React.js. Users can easily browse menus, customize orders, and complete transactions seamlessly.</li>
+    
+    <li>AI-Powered Support: The AI ChatBot, enabled by Azure AI Service, provides instant and accurate responses to user queries. It offers personalized assistance, resolves concerns, and guides users through the ordering process efficiently.</li>
+    
+    <li>Secure Data Management: Leveraging Azure Cosmos DB, GoFood ensures the utmost security for user credentials. The platform encrypts and safeguards sensitive information, prioritizing data integrity and privacy, thereby enhancing user trust and confidence.</li>
+   
+    </ul>
+<b>Future Enhancements :</b><br>
+<p align="justify">
+GoFood envisions expanding its AI capabilities by integrating Azure Machine Learning Services to personalize user recommendations based on past orders and preferences. Implementing Azure Functions could further enhance system automation, enabling seamless order processing and delivery tracking. Additionally, exploring Azure Cognitive Services for sentiment analysis could provide valuable insights into customer satisfaction, allowing for continuous improvements in service quality. The platform also aims to explore Azure Kubernetes Service for better container orchestration, ensuring scalability and improved resource management as user demand grows.</p>
 
 
-## Screenshot-
+<h2>Core Azure Services</h2>
+<b>Azure App Service:</b><br><p align="justify">Hosts the Node.js backend and React.js for frontend to process user requests and provide functionalities.</p>
 
 
+<b>Azure Cosmos DB:</b><br><p align="justify"> Stores and manages user credentials and order history in a MongoDB instance, ensuring scalability and flexibility.</p>
+
+<h2>Azure AI Service</h2>
+
+<b>Azure AI Service:</b><br><p align="justify">Integrated to create an intelligent ChatBot resolving user queries.</p>
+
+<h2>Other Azure Technologies / Services</h2>
+<b>Azure Functions:</b><br><p align="justify">Azure Functions: Potential use for background processing tasks or additional functionalities.</p>
+<b>Azure Key Vault: </b><br><p align="justify">Securely manages keys, secrets, and certificates used in the application.</p>
+
+
+<h2>Screenshots</h2>
+
+<h3>Azure App Service</h3>
+<b>Description: For Frontend</b><p align="justify">
+</p>
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/frontend.png" alt="azure-app-service"></img><br>
+
+<b>Description: For Backend</b><p align="justify">
+</p>
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/backend.png" alt="azure-app-service"></img><br>
+
+<h3>Azure cosmos DB</h3>
+<b>Description:</b><p align="justify">The project utilizes Azure Cosmos DB as its database solution to effectively manage and store user history. This globally-distributed, multi-model database service ensures high data availability, consistency, and enables rapid information retrieval for seamless user experiences.</p>
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/mongodb.png" alt="azure-mysql-db-service"></img><br>
+
+<h3>Azure AI Service</h3>
+<b>Description:</b><p align="justify">AI service to create ChatBot</p>
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/bot.png" alt="azure-translator-ai-service"></img><br>
+
+
+<h3>Working Live Project Display</h3>
+<b>Description:</b><p align="justify">I am providing the enclosed screenshot of the finalized operational website for your reference and review purposes.</p>
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/demo2.png" alt="final-project-demo"></img><br>
+
+<img src="https://github.com/Pratikdhindale/fooddeliveryapp/blob/main/screenshots/demo3.png"></img><br>
+
+
+
+
+<h2>Final Project Statement</h2>
+<p align="justify">
+GoFood leverages a robust stack of Azure services to create a secure and user-friendly online food ordering platform. By integrating Azure App Service, Cosmos DB, and an AI-powered ChatBot, it offers a seamless experience, ensuring data security and effective query resolution.</p>
